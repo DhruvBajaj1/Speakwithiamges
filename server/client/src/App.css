@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+body{
+  background-color:whitesmoke;
+}
+a{
+  text-decoration: underline ;
+  color:#18ffff !important;
+}
+.brand-logo{
+  font-family: 'Bitter', serif;
+}
+.mycard{
+  margin-top:50px;
+}
+.auth-card{
+  color:rgb(214, 235, 227);
+  font-size: 30px;
+  font-weight: 100;
+  border-radius: 25px;
+  background-color:#1b4350;
+  padding:20px;
+  text-align: center;
+  max-width: 500px;
+  margin:10px auto;
+}
+input[type=text] {
+  color:rgb(100, 248, 248);
+  padding: 12px 20px;
+}
+input[type=password] {
+  color:rgb(100, 248, 248);
+  padding: 12px 20px;
+}
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.item{
+  width:30%;
+  margin-bottom: 2rem;
+}
+.homecard{
+  max-width: 500px;
+  height:max-content;
+  margin:26px auto;
+}
+#toast-container{
+  top:30px !important;
+  right:20px !important;
+  left:auto !important;
+}
+.comments{
+  background-color:#b983ff;
+}
+
+.material-icons:hover{
+  cursor:pointer;
+}
